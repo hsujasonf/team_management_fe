@@ -21,3 +21,7 @@ Install the dependencies:
 (env)$ cd team_management_fe
 (env)$ npm run dev
 ```
+
+![add](./src/assets/Add.png "add")
+![edit](./src/assets/Edit.png "edit")
+![teammembers](./src/assets/TeamMembers.png "teammembers")
