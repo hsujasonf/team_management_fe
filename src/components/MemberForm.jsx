@@ -65,7 +65,7 @@ const MemberForm = ({
                 checked={formData.role === "regular"}
                 placeholder="regular"
               />
-              <label>Regular</label>
+              <label>Regular - Can't Delete Members</label>
             </div>
             <div className="RadioOption">
               <input
@@ -76,7 +76,7 @@ const MemberForm = ({
                 checked={formData.role === "admin"}
                 placeholder="admin"
               />
-              <label>Admin</label>
+              <label>Admin - Can Delete Members</label>
             </div>
           </div>
         </div>
