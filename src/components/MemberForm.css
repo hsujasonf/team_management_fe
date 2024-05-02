@@ -1,0 +1,32 @@
+.AddEditMemberForm,
+.RadioOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.RadioOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.AddEditTeamMemberComponent {
+  border: blue 2px solid;
+  padding: 15px;
+  background-color: white;
+}
+.FormButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+input {
+  background-color: white;
+  height: 30px;
+  color: black;
+}
+input[type="text"],
+input[type="email"] {
+  margin-top: 10px;
+}

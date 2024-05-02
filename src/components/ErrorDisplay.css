@@ -1,0 +1,19 @@
+.ErrorMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.CloseButton {
+  font-size: 0.75em;
+  background-color: white;
+  color: red;
+  margin-bottom: 5px;
+}
