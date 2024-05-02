@@ -1,23 +1,23 @@
 # React + Vite
 
+# team_management_fe
+
 ## Setup
 
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/hsujasonf/team_management_be
-$ cd team_management_be
+$ git clone https://github.com/hsujasonf/team_management_fe
+$ cd team_management_fe
 ```
 
 Install the dependencies:
 
 ```sh
-(env)$ pip install -r requirements.txt
+(env)$ npm install
 ```
 
-Once `pip` has finished downloading the dependencies:
-
 ```sh
-(env)$ cd team_management_be
-(env)$ python manage.py runserver
+(env)$ cd team_management_fe
+(env)$ npm run dev
 ```
